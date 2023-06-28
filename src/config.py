@@ -17,7 +17,7 @@ class RerenderConfig:
                                work_dir: Optional[str] = None,
                                key_subdir: str = 'keys',
                                frame_count: Optional[int] = None,
-                               interval: int = 10,
+                               interval: int = 3,
                                crop: Sequence[int] = (0, 0, 0, 0),
                                sd_model: Optional[str] = None,
                                a_prompt: str = '',
