@@ -7,4 +7,5 @@ model_dict = {
     'DGSpitzer/Cyberpunk-Anime-Diffusion': 'Cyberpunk-Anime-Diffusion.safetensors',
     'wavymulder/Analog-Diffusion': 'analog-diffusion-1.0.safetensors',
     'Fictiverse/Stable_Diffusion_PaperCut_Model': 'PaperCut_v1.safetensors',
+    'naonovn/chilloutmix_NiPrunedFp32Fix': 'chilloutmix_NiPrunedFp32Fix.safetensors',
 }
