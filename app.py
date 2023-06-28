@@ -672,6 +672,12 @@ with block:
                                   format='mp4',
                                   visible=True)
             prompt = gr.Textbox(label='Prompt')
+            interval = gr.Slider(label='Interval',
+                             minimum=1,
+                             maximum=30,
+                             step=1,
+                             value=10,
+                             randomize=False)
             seed = gr.Slider(label='Seed',
                              minimum=0,
                              maximum=2147483647,
@@ -768,7 +774,7 @@ with block:
                            'missing fingers, extra digit, fewer digits, '
                            'cropped, worst quality, low quality'))
             with gr.Accordion('Advanced options for the key fame translation',
-                              open=False):
+                              open=True):
                 interval = gr.Slider(
                     label='Key frame frequency (K)',
                     minimum=1,
